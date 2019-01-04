@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.my.client.controller.LoginStageController">
+   <children>
+      <ToggleButton fx:id="loginButtonLoginStage" layoutX="481.0" layoutY="63.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="65.0" selected="true" text="Login">
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleGroupLoginStage" />
+         </toggleGroup></ToggleButton>
+      <Label layoutX="204.0" layoutY="150.0" text="Username" />
+      <Label fx:id="secondPasswordLabelLoginStage" alignment="TOP_LEFT" layoutX="183.0" layoutY="221.0" prefHeight="35.0" prefWidth="90.0" text="Confirm password" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="203.0" layoutY="190.0" text="Password" />
+      <Label fx:id="emailLabelLoginStage" layoutX="216.0" layoutY="270.0" text="Email" />
+      <TextField fx:id="nameFieldLoginStage" layoutX="268.0" layoutY="146.0" />
+      <TextField fx:id="emailFieldLoginStage" layoutX="268.0" layoutY="266.0" />
+      <PasswordField fx:id="firstPasswordFieldLoginStage" layoutX="268.0" layoutY="186.0" />
+      <PasswordField fx:id="secondPasswordFieldLoginStage" layoutX="268.0" layoutY="226.0" />
+      <Button fx:id="acceptButtonLoginStage" layoutX="244.0" layoutY="320.0" mnemonicParsing="false" onAction="#acceptButtonLoginStage" prefHeight="25.0" prefWidth="113.0" text="Button" />
+      <ToggleButton fx:id="registerButtonLoginStage" layoutX="417.0" layoutY="63.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="65.0" text="Signup" toggleGroup="$toggleGroupLoginStage" />
+      <ImageView fx:id="imageUsernameLoginStage" fitHeight="25.0" fitWidth="25.0" layoutX="425.0" layoutY="146.0" onMouseEntered="#imageEnter" onMouseExited="#imageExited" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageFirstPasswordLoginStage" fitHeight="25.0" fitWidth="25.0" layoutX="425.0" layoutY="186.0" onMouseEntered="#imageEnter" onMouseExited="#imageExited" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageSecondPasswordLoginStage" fitHeight="25.0" fitWidth="25.0" layoutX="425.0" layoutY="226.0" onMouseEntered="#imageEnter" onMouseExited="#imageExited" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageEmailLoginStage" fitHeight="25.0" fitWidth="25.0" layoutX="425.0" layoutY="266.0" onMouseEntered="#imageEnter" onMouseExited="#imageExited" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="miniLabelUsernameLoginStage" layoutX="268.0" layoutY="171.0" prefHeight="10.0" prefWidth="200.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="miniLabelFirstPasswordLoginStage" layoutX="268.0" layoutY="211.0" prefHeight="10.0" prefWidth="200.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="miniLabelSecondPasswordLoginStage" layoutX="268.0" layoutY="250.0" prefHeight="10.0" prefWidth="200.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="miniLabelEmailLoginStage" layoutX="268.0" layoutY="291.0" prefHeight="10.0" prefWidth="200.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

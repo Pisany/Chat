@@ -1,0 +1,44 @@
+2018-12-13 14:58:30 database: flush
+org.h2.message.DbException: Błąd ogólny: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Pisany/Documents/Java/Git/Server/archive.mv.db [1.4.193/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Pisany/Documents/Java/Git/Server/archive.mv.db [1.4.193/7]" [50000-193]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:94)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:379)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:362)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2923)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:154)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:99)
+	at org.h2.engine.Database.getPageStore(Database.java:2468)
+	at org.h2.engine.Database.open(Database.java:695)
+	at org.h2.engine.Database.openDatabase(Database.java:273)
+	at org.h2.engine.Database.<init>(Database.java:267)
+	at org.h2.engine.Engine.openSession(Engine.java:64)
+	at org.h2.engine.Engine.openSession(Engine.java:176)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154)
+	at org.h2.engine.Engine.createSession(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:27)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:349)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:115)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:99)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:678)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at com.j256.ormlite.jdbc.JdbcConnectionSource.makeConnection(JdbcConnectionSource.java:266)
+	at com.j256.ormlite.jdbc.JdbcConnectionSource.getReadWriteConnection(JdbcConnectionSource.java:187)
+	at com.j256.ormlite.table.TableUtils.doCreateTable(TableUtils.java:397)
+	at com.j256.ormlite.table.TableUtils.doCreateTable(TableUtils.java:383)
+	at com.j256.ormlite.table.TableUtils.createTableIfNotExists(TableUtils.java:75)
+	at database.DbManager.createTable(DbManager.java:60)
+	at database.DbManager.initDatabase(DbManager.java:29)
+	at main.Server.startSerwer(Server.java:34)
+	at main.Server.main(Server.java:24)
+Caused by: org.h2.jdbc.JdbcSQLException: Błąd ogólny: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Pisany/Documents/Java/Git/Server/archive.mv.db [1.4.193/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Pisany/Documents/Java/Git/Server/archive.mv.db [1.4.193/7]" [50000-193]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 32 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Pisany/Documents/Java/Git/Server/archive.mv.db [1.4.193/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:765)
+	at org.h2.mvstore.FileStore.open(FileStore.java:173)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:348)
+	... 27 more

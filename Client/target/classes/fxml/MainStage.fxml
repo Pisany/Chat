@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPaneMainStage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.my.client.controller.MainStageController">
+   <children>
+      <ToggleButton layoutX="403.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Online">
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleMainStage" />
+         </toggleGroup>
+      </ToggleButton>
+      <ToggleButton fx:id="localHostButtonMainStage" layoutX="57.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" selected="true" text="Local Host" toggleGroup="$toggleMainStage" />
+      <Label fx:id="labelMainStage" layoutX="217.0" layoutY="177.0" prefHeight="17.0" prefWidth="119.0" text="Podaj imię: " />
+      <TextField fx:id="nameFieldMainStage" layoutX="207.0" layoutY="200.0" />
+      <Button fx:id="acceptButtonMainStage" layoutX="260.0" layoutY="290.0" mnemonicParsing="false" onAction="#acceptName" prefHeight="49.0" prefWidth="81.0" text="OK." />
+      <Label fx:id="nickLabelMainStage" alignment="CENTER" layoutX="207.0" layoutY="237.0" prefHeight="17.0" prefWidth="100.0" />
+      <Label fx:id="informationLabelMainStage" alignment="CENTER" layoutX="294.0" layoutY="237.0" prefHeight="17.0" prefWidth="64.0" />
+      <Label fx:id="loginFieldMainStage" layoutX="491.0" layoutY="14.0" onMouseClicked="#loginPanel" onMouseEntered="#changeFont" onMouseExited="#basicFont" text="Login / Signin" />
+   </children>
+</AnchorPane>
