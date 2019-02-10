@@ -73,10 +73,10 @@ public class Client {
     }
 
     public void sendMessage() {
-        if (!client.getStr().equalsIgnoreCase("/quit")) {
-            printWriter.println(name + ": " + str);
-            printWriter.flush();
-        } else {
+            if (!client.getStr().equalsIgnoreCase("/quit")) {
+                printWriter.println(name + ": " + str);
+                printWriter.flush();
+            } else {
             closeConnection();
         }
     }
@@ -88,10 +88,10 @@ public class Client {
         printWriter.flush();
     }
 
-    public void sendNewUser(String username, String password, String email) {
+    public void sendNewUserCard(String username, String password, String email) {
         Encryption encryption = new Encryption();
-        System.out.println("#newUser# -" + username + "," + encryption.code(password) + "," + email);
-        printWriter.println("#newUser# -" + username + "-" + encryption.code(password) + "-" + email);
+        System.out.println("#newUser# -" + username + "-" + encryption.code(password) + "-" + email);
+        printWriter.println("#newUser# -" + username + "," + encryption.code(password) + "," + email);
         printWriter.flush();
     }
 
@@ -99,7 +99,7 @@ public class Client {
         Encryption encryption = new Encryption();
 
         System.out.println("#loginUser# -" + username + "-" + encryption.code(password));
-        printWriter.println("#loginUser# -" + username + "-" + encryption.code(password));
+        printWriter.println("#loginUser# -" + username + "," + encryption.code(password));
         printWriter.flush();
     }
 

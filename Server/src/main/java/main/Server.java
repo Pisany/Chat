@@ -1,6 +1,6 @@
 package main;
 
-import database.DbManager;
+import database.models.Driver;
 import database.models.Users;
 
 import java.io.BufferedReader;
@@ -15,9 +15,9 @@ import java.util.Iterator;
 
 public class Server {
 
-    HashSet<String> hset;
-    ArrayList klientArrayList;
-    PrintWriter printWriter;
+    private HashSet<String> hset;
+    private ArrayList<PrintWriter> klientArrayList;
+    private PrintWriter printWriter;
 
     public static void main(String[] args) {
 
@@ -29,10 +29,9 @@ public class Server {
 
 
     public void startSerwer() {
-        klientArrayList = new ArrayList();
+        klientArrayList = new ArrayList<>();
         hset = new HashSet<>();
         System.out.println("Uruchomiono serwer.");
-        DbManager.initDatabase();
         hset.add("Michał");
         hset.add("Adam");
         hset.add("Wiola");
@@ -62,10 +61,10 @@ public class Server {
     }
 
     public void sendUserList(PrintWriter pw) {
-        Iterator it = klientArrayList.iterator();
+        Iterator<PrintWriter> it = klientArrayList.iterator();
         while (it.hasNext()) {
 
-            pw = (PrintWriter) it.next();
+            pw = it.next();
             pw.println("#users# -" + hset);
             System.out.println("#users# -" + hset);
             pw.flush();
@@ -104,10 +103,10 @@ public class Server {
         }
 
         public void sendMessage(String str) {
-            Iterator it = klientArrayList.iterator();
+            Iterator<PrintWriter> it = klientArrayList.iterator();
             while (it.hasNext()) {
 
-                pw = (PrintWriter) it.next();
+                pw = it.next();
                 pw.println(str);
                 pw.flush();
             }
@@ -131,7 +130,7 @@ public class Server {
             String str;
             String[] parts;
             Thread u = null;
-
+            Driver driver = new Driver();
 
             try {
 
@@ -179,18 +178,21 @@ public class Server {
 
                     } else if (str.contains("#newUser# -")) {
                         System.out.println(str);
-                        parts = str.split("-");
+                        str = str.replace("#newUser# -", "");
+                        parts = str.split(",");
 
-                        Users user = new Users();
+                        Users user = new Users(parts[0],parts[1],parts[2]);
 
 
-                    } else if (str.contains("loginUsers -")) {
+                    } else if (str.contains("#loginUser# -")) {
                         System.out.println(str);
-                        parts = str.split("-");
+                        str = str.replace("#loginUser# -", "");
+                        parts = str.split(",");
 
 
                     } else
                         sendMessage(str);
+//                    driver.saveMessage(str);
 
 
                 }

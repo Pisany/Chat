@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Client" options="--add-modules=javafx.fxml,javafx.controls,javafx.graphics,javafx.base" />
+      <module name="Client" options="" />
     </option>
   </component>
 </project>

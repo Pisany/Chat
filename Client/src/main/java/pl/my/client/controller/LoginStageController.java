@@ -77,6 +77,7 @@ public class LoginStageController implements Initializable {
     private Pattern emailPattern = Pattern.compile("^[a-zA-Z0-9]+[._a-zA-Z0-9]*@[a-zA-Z0-9]+\\.[a-z]{2,}[.a-z]*$");
     private Pattern passwordPattern = Pattern.compile("");
 //    private Pattern passwordPattern = Pattern.compile("");
+    //TODO password pattern
 
     private Matcher emailMatcher = null;
     private Matcher passwordMatcher = null;
@@ -103,7 +104,7 @@ public class LoginStageController implements Initializable {
 
         checkUsernameLogin();
         checkPasswordLogin();
-        setAcceptButtonLoginStage();
+
 
     }
 
@@ -286,16 +287,20 @@ public class LoginStageController implements Initializable {
     private void checkUsernameLogin() {
         nameFieldLoginStage.textProperty().addListener((observable, oldValue, newValue) -> {
             usernameFlag = getPropertyUsername().length() >= 3 && getPropertyUsername().length() < 13;
+            setAcceptButtonLoginStage();
         });
     }
 
     private void checkPasswordLogin() {
         firstPasswordFieldLoginStage.textProperty().addListener((observable, oldValue, newValue) -> {
-            firstPasswordFlag = getPropertyFirstPassword().length() >= 6 && getPropertyFirstPassword().length() <= 18;
+            firstPasswordFlag = getPropertyFirstPassword().length() > 5 && getPropertyFirstPassword().length() <= 18;
+            setAcceptButtonLoginStage();
         });
     }
 
     private void setAcceptButtonLoginStage() {
+        System.out.println("Usernameflag: "+ usernameFlag);
+        System.out.println("Firstpasswordflag: "+ firstPasswordFlag);
 
         if (registerButtonLoginStage.isSelected()) {
             if (usernameFlag && firstPasswordFlag && secondPasswordFlag && emailFlag) {
@@ -305,8 +310,9 @@ public class LoginStageController implements Initializable {
         } else {
             if (usernameFlag && firstPasswordFlag) {
                 acceptButtonLoginStage.setDisable(false);
-            } else
+            } else {
                 acceptButtonLoginStage.setDisable(true);
+            }
 
         }
 
@@ -316,7 +322,7 @@ public class LoginStageController implements Initializable {
         //send everything, everywhere to everybody
 
         if (registerButtonLoginStage.isSelected()) {
-            client.sendNewUser(nameFieldLoginStage.getText(), firstPasswordFieldLoginStage.getText(), emailFieldLoginStage.getText());
+            client.sendNewUserCard(nameFieldLoginStage.getText(), firstPasswordFieldLoginStage.getText(), emailFieldLoginStage.getText());
         } else
             client.sendLoginCard(nameFieldLoginStage.getText(), firstPasswordFieldLoginStage.getText());
 
