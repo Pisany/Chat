@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e18e3432-62b6-4d73-a214-c050d76fa168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/database/models/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e18e3432-62b6-4d73-a214-c050d76fa168" name="Default Changelist" comment="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/my/client/controller/LoginStageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/my/client/controller/LoginStageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/my/client/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/my/client/model/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/my/client/controller/LoginStageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/my/client/controller/LoginStageController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/my/client/controller/LoginStageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/my/client/controller/LoginStageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/my/client/controller/MainStageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/my/client/controller/MainStageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/my/client/model/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/my/client/model/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/archive.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/archive.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/database/DbManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/database/models/Messages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/database/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/database/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/main/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/main/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/database/DbManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/database/models/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/database/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/target/classes/database/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/main/Ping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/target/classes/main/Ping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/main/Server$SerwerKlient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/target/classes/main/Server$SerwerKlient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/target/classes/main/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/target/classes/main/Server.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="578">
               <caret line="40" column="50" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="50" />
             </state>
           </provider>
@@ -59,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+            <state relative-caret-position="194">
+              <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -80,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/controller/ChatStageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="459">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -339,6 +316,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542984296731</updated>
       <workItem from="1549714712839" duration="1804000" />
+      <workItem from="1549805555464" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="login/register pane added">
       <created>1545223908567</created>
@@ -375,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546098302956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error..">
+      <created>1549805604723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549805604723</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1804000" />
+    <option name="totallyTimeSpent" value="1917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,8 +386,6 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.23696682" />
@@ -415,8 +398,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32828283" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270142" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3295082" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,6 +409,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +477,8 @@
     <MESSAGE value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking" />
     <MESSAGE value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error" />
     <MESSAGE value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error." />
-    <option name="LAST_COMMIT_MESSAGE" value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error." />
+    <MESSAGE value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error.." />
+    <option name="LAST_COMMIT_MESSAGE" value="login/register pane added&#10;-Client class split&#10;-login/register pane have username checking&#10;-login/register pane have username, password checking&#10;-error.." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Client.iml" />
@@ -623,16 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/controller/ChatStageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/utils/FxmlUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -642,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="578">
           <caret line="40" column="50" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="50" />
         </state>
       </provider>
@@ -650,14 +626,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/controller/ChatStageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/my/client/model/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
