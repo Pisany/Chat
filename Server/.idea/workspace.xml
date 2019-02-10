@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9d2b0ff-adfd-4f96-b285-3be43bf5afe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/models/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b9d2b0ff-adfd-4f96-b285-3be43bf5afe5" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/pl/my/client/controller/LoginStageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/pl/my/client/controller/LoginStageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/pl/my/client/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/pl/my/client/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/LoginStageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/LoginStageController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/LoginStageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/LoginStageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/MainStageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/controller/MainStageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/model/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/pl/my/client/model/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/archive.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/DbManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Messages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/DbManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/models/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Ping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Ping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Server$SerwerKlient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Server$SerwerKlient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Server.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="2601">
               <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,20 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/models/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="867">
               <caret line="51" column="107" selection-start-line="51" selection-start-column="107" selection-end-line="51" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Ping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -154,6 +128,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -222,6 +204,8 @@
       <option name="presentableId" value="Default" />
       <updated>1543745240619</updated>
       <workItem from="1549714721792" duration="1796000" />
+      <workItem from="1549805672422" duration="32000" />
+      <workItem from="1549829175287" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1545259042759</created>
@@ -230,25 +214,30 @@
       <option name="project" value="LOCAL" />
       <updated>1545259042759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1549805694551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549805694551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1796000" />
+    <option name="totallyTimeSpent" value="1942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2818448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2818448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.047393367" />
@@ -260,8 +249,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,6 +259,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
@@ -331,16 +322,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/database/models/Messages.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/database/DbManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/database/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/models/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="51" column="107" selection-start-line="51" selection-start-column="107" selection-end-line="51" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="2601">
           <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -350,8 +334,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Ping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/models/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="107" selection-start-line="51" selection-start-column="107" selection-end-line="51" selection-end-column="107" />
         </state>
       </provider>
     </entry>
